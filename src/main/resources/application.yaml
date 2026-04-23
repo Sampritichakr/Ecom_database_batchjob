@@ -5,8 +5,8 @@ spring:
   # =============================================================
   cassandra:
     secure-connect-bundle: classpath:secure-connect-ecomnosql-db.zip
-    username: "usernamess"
-    password: "passwordss"
+    username: "usernames"
+    password: "passwords"
     keyspace-name: ecomnosql_keyspace
     schema-action: create-if-not-exists
 
